@@ -1,5 +1,8 @@
 {
     "version": "1.0",
-    "url": "https://gist.github.com/lukesampson/6446238/raw/hello.ps1",
-    "bin": "hello.ps1"
+    "url": "https://github.com/a1311910148/scoop-bucket/releases/download/1.0/duolingo.msi",
+    "installer": {
+        "msi": "duolingo.msi"
+    },
+    "bin": "duolingo.exe"
 }
