@@ -1,8 +1,6 @@
 {
     "version": "1.0",
-    "url": "https://github.com/a1311910148/scoop-bucket/releases/download/1.0/duolingo.msi",
-    "installer": {
-        "msi": "duolingo.msi"
-    },
+    "url": "https://github.com/a1311910148/scoop-bucket/releases/download/1.0/duolingo.zip",
+    "extract_dir": "PFiles\\duolingo",
     "bin": "duolingo.exe"
 }
