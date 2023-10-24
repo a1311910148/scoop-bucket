@@ -2,15 +2,10 @@
     "version": "1.0",
     "url": "https://github.com/a1311910148/scoop-bucket/releases/download/1.1/qwerty.zip",
     "bin": "Qwerty.exe",
-    "postInstall": [
-        "Write-Host 'Creating desktop shortcut for Qwerty...'",
-        "$desktopPath = [Environment]::GetFolderPath('Desktop')",
-        "$shortcutPath = Join-Path -Path $desktopPath -ChildPath 'Qwerty.lnk'",
-        "$targetPath = Join-Path -Path (scoop bin qwerty) -ChildPath 'Qwerty.exe'",
-        "$wscriptShell = New-Object -ComObject WScript.Shell",
-        "$shortcut = $wscriptShell.CreateShortcut($shortcutPath)",
-        "$shortcut.TargetPath = $targetPath",
-        "$shortcut.Save()",
-        "Write-Host 'Desktop shortcut created successfully.'"
-      ]
+    "shortcuts": [
+        [
+            "Qwerty.exe",
+            "Qwerty"
+        ]
+    ]
 }
