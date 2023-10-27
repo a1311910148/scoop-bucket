@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "url": "https://github.com/a1311910148/scoop-bucket/releases/download/1.1/IDM.7z",
+    "bin": "!)绿化.bat",
+    "shortcuts": [
+        [
+            "IDMan.exe",
+            "IDM"
+        ]
+    ]
+}
